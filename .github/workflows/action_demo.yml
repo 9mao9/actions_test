@@ -12,5 +12,5 @@ jobs:
       - name: "Name"
         run: echo "I am bot! You are cheater!"
 
-      -name: "file show"
+      - name: "File Show"
         run: ls -al
