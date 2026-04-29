@@ -6,4 +6,11 @@ jobs:
   echo_test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World!"
+      - name: "Echo"
+        run: echo "Hello World!"
+
+      - name: "Name"
+        run: echo "I am bot! You are cheater!"
+
+      -name: "file show"
+        run: ls -al
