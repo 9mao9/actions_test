@@ -19,3 +19,9 @@ jobs:
         run: |
           echo "test" > sample.txt
           ls -al
+
+  echo_goodbye:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: "別れの挨拶をする"
+        run: echo "Good Bye!!"
