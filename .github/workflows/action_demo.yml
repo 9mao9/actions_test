@@ -9,8 +9,13 @@ jobs:
       - name: "Echo"
         run: echo "Hello World!"
 
-      - name: "Name"
-        run: echo "I am bot! You are cheater!"
+      - name: "Environment Info"
+        run: |
+          uname -a
+          node -v
+          python --version
 
-      - name: "File Show"
-        run: ls -al
+      - name: "File creation"
+        run: |
+          echo "test" > sample.txt
+          ls -al
